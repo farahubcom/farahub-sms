@@ -1,0 +1,22 @@
+{
+    "name": "@farahub/sms",
+    "version": "1.0.0",
+    "description": "Sms module for the Farahub framework",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/farahubcom/farahub-sms.git"
+    },
+    "license": "MIT",
+    "main": "src/module.js",
+    "files": [
+        "src/**/*"
+    ],
+    "dependencies": {
+        "@farahub/framework": "^1.0.3",
+        "axios": "^1.6.2",
+        "lodash": "^4.17.21",
+        "mongoose": "^6.3.1",
+        "mongoose-lean-virtuals": "^0.9.0"
+    },
+    "devDependencies": {}
+}
