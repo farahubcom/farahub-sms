@@ -1,6 +1,6 @@
 {
     "name": "@farahub/sms",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Sms module for the Farahub framework",
     "repository": {
         "type": "git",
@@ -13,7 +13,8 @@
     ],
     "exports": {
         "./facades": "./src/facades/index.js",
-        "./facades/*": "./src/facades/*.js"
+        "./facades/*": "./src/facades/*.js",
+        ".": "./src/module.js"
     },
     "dependencies": {
         "@farahub/framework": "^1.0.3",
