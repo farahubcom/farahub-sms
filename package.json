@@ -1,6 +1,6 @@
 {
     "name": "@farahub/sms",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Sms module for the Farahub framework",
     "repository": {
         "type": "git",

@@ -3,7 +3,11 @@ const Workspace = require('./Workspace')
 
 const schemas = {
     Sms,
-    Workspace
+    'injects': {
+        'Core': {
+            Workspace
+        },
+    }
 }
 
 module.exports = schemas;
